@@ -152,15 +152,3 @@ import help from './images/icons/Help.svg';
 <Icon glyph={help} />
 ```
 
-React SSR render
-```js
-
-// some-component.jsx
-import Icon from './icon';
-import help from './images/icons/Help.svg';
-
-<Icon glyph={help} />   (return a name of svg on server mode)
-
-```
-
-
